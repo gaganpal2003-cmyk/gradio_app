@@ -1,5 +1,5 @@
 from .connection import get_db_connection
-from utils.logger import logger
+from app_utils.logger import logger
 from typing import List, Dict, Any, Optional
 
 class AlertRepository:

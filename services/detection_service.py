@@ -2,8 +2,8 @@ import cv2
 import time
 from typing import Dict, Any, Tuple
 from core.inference_engine import InferenceEngine
-from utils.video_utils import FPSCounter
-from utils.image_utils import draw_detections, resize_with_aspect_ratio
+from app_utils.video_utils import FPSCounter
+from app_utils.image_utils import draw_detections, resize_with_aspect_ratio
 from services.camera_service import CameraService
 from services.alert_service import AlertService
 from database.detection_repository import DetectionRepository

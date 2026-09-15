@@ -2,7 +2,7 @@ import cv2
 import threading
 import time
 from typing import Optional
-from utils.logger import logger
+from app_utils.logger import logger
 import numpy as np
 
 class CameraManager:

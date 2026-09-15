@@ -3,8 +3,8 @@ import cv2
 import uuid
 from typing import List, Dict, Any
 from database.alert_repository import AlertRepository
-from utils.image_utils import draw_detections
-from utils.logger import logger
+from app_utils.image_utils import draw_detections
+from app_utils.logger import logger
 import config
 
 class AlertService:

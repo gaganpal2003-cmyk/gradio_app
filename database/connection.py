@@ -2,7 +2,7 @@ import pymysql
 import pymysql.cursors
 from contextlib import contextmanager
 import config
-from utils.logger import logger
+from app_utils.logger import logger
 
 class DatabaseConnection:
     _instance = None

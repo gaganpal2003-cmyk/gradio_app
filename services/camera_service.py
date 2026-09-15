@@ -1,7 +1,7 @@
 from typing import Dict, Any, List, Optional
 from core.camera_manager import CameraManager
 from database.camera_repository import CameraRepository
-from utils.logger import logger
+from app_utils.logger import logger
 import numpy as np
 
 class CameraService:

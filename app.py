@@ -6,7 +6,7 @@ from services.alert_service import AlertService
 from services.statistics_service import StatisticsService
 from ui import custom_theme, custom_css, create_dashboard_tab, create_camera_tab, create_alerts_tab, create_analytics_tab, create_settings_tab
 import config
-from utils.logger import logger
+from app_utils.logger import logger
 
 def main():
     logger.info("Starting Bothera AI Platform...")
@@ -23,12 +23,14 @@ def main():
     # 3. Build Gradio Blocks App
     with gr.Blocks(theme=custom_theme, css=custom_css, title="Bothera AI") as app:
         
-        with gr.Tabs(elem_classes=["tabs", "tab-nav"]):
+        with gr.Tabs():
             create_dashboard_tab(stats_service, alert_service)
-            create_camera_tab(camera_service, detection_service)
+            camera_selector, get_cam_choices = create_camera_tab(camera_service, detection_service)
             create_alerts_tab(alert_service)
             create_analytics_tab(stats_service)
             create_settings_tab()
+            
+        app.load(fn=get_cam_choices, inputs=None, outputs=[camera_selector])
             
     # Start the server
     logger.info(f"Launching Gradio app on {config.SERVER_HOST}:{config.SERVER_PORT}")

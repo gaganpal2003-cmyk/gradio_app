@@ -1,6 +1,6 @@
 import time
 from typing import List, Dict, Any
-from utils.logger import logger
+from app_utils.logger import logger
 import config
 
 class AlertManager:

@@ -1,7 +1,7 @@
 import os
 import torch
 from typing import List, Dict, Any, Union
-from utils.logger import logger
+from app_utils.logger import logger
 import config
 
 class Detector:

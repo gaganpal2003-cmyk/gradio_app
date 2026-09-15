@@ -1,5 +1,5 @@
 from .connection import get_db_connection
-from utils.logger import logger
+from app_utils.logger import logger
 from typing import List, Dict, Any
 
 class DetectionRepository:
@@ -49,7 +49,7 @@ class DetectionRepository:
                 with conn.cursor() as cursor:
                     cursor.execute(
                         """
-                        SELECT DATE_FORMAT(timestamp, '%Y-%m-%d %H:00:00') as hour, 
+                        SELECT DATE_FORMAT(timestamp, '%%Y-%%m-%%d %%H:00:00') as hour, 
                                COUNT(*) as count
                         FROM alerts
                         WHERE timestamp >= DATE_SUB(NOW(), INTERVAL %s HOUR)

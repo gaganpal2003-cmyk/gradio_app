@@ -14,3 +14,212 @@
 2026-09-16 00:06:57,332 | INFO     | bothera_ai:init_database:53 - Initializing database...
 2026-09-16 00:06:57,369 | INFO     | bothera_ai:init_database:60 - Database bothera_ai_db verified/created.
 2026-09-16 00:06:57,392 | INFO     | bothera_ai:init_database:116 - Database schema initialized successfully.
+2026-09-16 00:18:13,394 | INFO     | bothera_ai:main:12 - Starting Bothera AI Platform...
+2026-09-16 00:18:13,395 | INFO     | bothera_ai:init_database:53 - Initializing database...
+2026-09-16 00:18:13,448 | INFO     | bothera_ai:init_database:60 - Database bothera_ai_db verified/created.
+2026-09-16 00:18:13,487 | INFO     | bothera_ai:init_database:116 - Database schema initialized successfully.
+2026-09-16 00:18:14,290 | INFO     | bothera_ai:main:34 - Launching Gradio app on 0.0.0.0:7860
+2026-09-16 00:18:29,331 | INFO     | bothera_ai:main:45 - Shutting down services...
+2026-09-16 00:20:15,253 | INFO     | bothera_ai:main:12 - Starting Bothera AI Platform...
+2026-09-16 00:20:15,256 | INFO     | bothera_ai:init_database:53 - Initializing database...
+2026-09-16 00:20:15,350 | INFO     | bothera_ai:init_database:60 - Database bothera_ai_db verified/created.
+2026-09-16 00:20:15,444 | INFO     | bothera_ai:init_database:116 - Database schema initialized successfully.
+2026-09-16 00:20:17,291 | INFO     | bothera_ai:main:34 - Launching Gradio app on 0.0.0.0:7860
+2026-09-16 00:24:51,796 | INFO     | bothera_ai:main:12 - Starting Bothera AI Platform...
+2026-09-16 00:24:51,796 | INFO     | bothera_ai:init_database:53 - Initializing database...
+2026-09-16 00:24:51,838 | INFO     | bothera_ai:init_database:60 - Database bothera_ai_db verified/created.
+2026-09-16 00:24:51,862 | INFO     | bothera_ai:init_database:116 - Database schema initialized successfully.
+2026-09-16 00:24:52,442 | INFO     | bothera_ai:main:34 - Launching Gradio app on 0.0.0.0:7860
+2026-09-16 00:25:49,609 | WARNING  | bothera_ai:_load_model:28 - Failed to load as YOLOv8 (might be YOLOv5 checkpoint): ERROR  D:\Study\Gradio\Models\ppe.pt appears to be an Ultralytics YOLOv5 model originally trained with https://github.com/ultralytics/yolov5. This model is NOT forwards compatible with YOLOv8 at https://github.com/ultralytics/ultralytics.
+Recommend fixes are to train a new model using the latest 'ultralytics' package or to run a command with an official Ultralytics model, i.e. 'yolo predict model=yolo26n.pt'
+2026-09-16 00:25:49,611 | INFO     | bothera_ai:_load_model:32 - Attempting to load via torch.hub YOLOv5...
+2026-09-16 00:25:49,920 | ERROR    | bothera_ai:_load_model:39 - Failed to load model D:\Study\Gradio\Models\ppe.pt via any engine: cannot import name 'TryExcept' from 'utils' (D:\Study\Gradio\utils\__init__.py)
+2026-09-16 00:25:52,915 | INFO     | bothera_ai:start:42 - CameraManager [1]: Started thread for 0
+2026-09-16 00:26:37,036 | ERROR    | bothera_ai:get_hourly_trends:63 - Error fetching hourly trends: unsupported format character 'Y' (0x59) at index 57
+2026-09-16 00:30:14,375 | INFO     | bothera_ai:main:12 - Starting Bothera AI Platform...
+2026-09-16 00:30:14,376 | INFO     | bothera_ai:init_database:53 - Initializing database...
+2026-09-16 00:30:14,415 | INFO     | bothera_ai:init_database:60 - Database bothera_ai_db verified/created.
+2026-09-16 00:30:14,445 | INFO     | bothera_ai:init_database:116 - Database schema initialized successfully.
+2026-09-16 00:30:14,999 | INFO     | bothera_ai:main:34 - Launching Gradio app on 0.0.0.0:7860
+2026-09-16 00:31:31,421 | INFO     | bothera_ai:main:12 - Starting Bothera AI Platform...
+2026-09-16 00:31:31,422 | INFO     | bothera_ai:init_database:53 - Initializing database...
+2026-09-16 00:31:31,488 | INFO     | bothera_ai:init_database:60 - Database bothera_ai_db verified/created.
+2026-09-16 00:31:31,565 | INFO     | bothera_ai:init_database:116 - Database schema initialized successfully.
+2026-09-16 00:31:32,943 | INFO     | bothera_ai:main:34 - Launching Gradio app on 0.0.0.0:7860
+2026-09-16 00:38:58,151 | INFO     | bothera_ai:init_database:53 - Initializing database...
+2026-09-16 00:38:58,180 | INFO     | bothera_ai:init_database:60 - Database bothera_ai_db verified/created.
+2026-09-16 00:38:58,220 | INFO     | bothera_ai:init_database:116 - Database schema initialized successfully.
+2026-09-16 00:41:13,580 | INFO     | bothera_ai:main:12 - Starting Bothera AI Platform...
+2026-09-16 00:41:13,581 | INFO     | bothera_ai:init_database:53 - Initializing database...
+2026-09-16 00:41:13,623 | INFO     | bothera_ai:init_database:60 - Database bothera_ai_db verified/created.
+2026-09-16 00:41:13,664 | INFO     | bothera_ai:init_database:116 - Database schema initialized successfully.
+2026-09-16 00:41:14,350 | INFO     | bothera_ai:main:36 - Launching Gradio app on 0.0.0.0:7860
+2026-09-16 00:42:04,538 | WARNING  | bothera_ai:_load_model:28 - Failed to load as YOLOv8 (might be YOLOv5 checkpoint): ERROR  D:\Study\Gradio\Models\ppe.pt appears to be an Ultralytics YOLOv5 model originally trained with https://github.com/ultralytics/yolov5. This model is NOT forwards compatible with YOLOv8 at https://github.com/ultralytics/ultralytics.
+Recommend fixes are to train a new model using the latest 'ultralytics' package or to run a command with an official Ultralytics model, i.e. 'yolo predict model=yolo26n.pt'
+2026-09-16 00:42:04,539 | INFO     | bothera_ai:_load_model:32 - Attempting to load via torch.hub YOLOv5...
+2026-09-16 00:42:16,932 | INFO     | bothera_ai:_load_model:37 - Loaded YOLOv5 model via torch hub: D:\Study\Gradio\Models\ppe.pt
+2026-09-16 00:42:20,116 | INFO     | bothera_ai:start:42 - CameraManager [2]: Started thread for 0
+2026-09-16 00:42:30,263 | INFO     | bothera_ai:_load_model:25 - Loaded YOLOv8+ model: D:\Study\Gradio\Models\ppe.pt
+2026-09-16 00:42:32,579 | INFO     | bothera_ai:start:42 - CameraManager [1]: Started thread for 0
+2026-09-16 00:42:34,148 | ERROR    | bothera_ai:predict:85 - Inference error: required rank 4 tensor to use channels_last format
+2026-09-16 00:42:35,090 | ERROR    | bothera_ai:predict:85 - Inference error: required rank 4 tensor to use channels_last format
+2026-09-16 00:42:35,673 | ERROR    | bothera_ai:predict:85 - Inference error: required rank 4 tensor to use channels_last format
+2026-09-16 00:42:36,397 | ERROR    | bothera_ai:predict:85 - Inference error: required rank 4 tensor to use channels_last format
+2026-09-16 00:42:36,991 | ERROR    | bothera_ai:predict:85 - Inference error: required rank 4 tensor to use channels_last format
+2026-09-16 00:42:37,583 | ERROR    | bothera_ai:predict:85 - Inference error: required rank 4 tensor to use channels_last format
+2026-09-16 00:42:38,146 | ERROR    | bothera_ai:predict:85 - Inference error: required rank 4 tensor to use channels_last format
+2026-09-16 00:42:38,677 | ERROR    | bothera_ai:predict:85 - Inference error: required rank 4 tensor to use channels_last format
+2026-09-16 00:42:39,463 | ERROR    | bothera_ai:predict:85 - Inference error: required rank 4 tensor to use channels_last format
+2026-09-16 00:42:40,110 | ERROR    | bothera_ai:predict:85 - Inference error: required rank 4 tensor to use channels_last format
+2026-09-16 00:42:40,672 | ERROR    | bothera_ai:predict:85 - Inference error: required rank 4 tensor to use channels_last format
+2026-09-16 00:42:41,243 | ERROR    | bothera_ai:predict:85 - Inference error: required rank 4 tensor to use channels_last format
+2026-09-16 00:42:41,868 | ERROR    | bothera_ai:predict:85 - Inference error: required rank 4 tensor to use channels_last format
+2026-09-16 00:42:42,544 | ERROR    | bothera_ai:predict:85 - Inference error: required rank 4 tensor to use channels_last format
+2026-09-16 00:42:43,129 | ERROR    | bothera_ai:predict:85 - Inference error: required rank 4 tensor to use channels_last format
+2026-09-16 00:42:43,740 | ERROR    | bothera_ai:predict:85 - Inference error: required rank 4 tensor to use channels_last format
+2026-09-16 00:42:44,534 | ERROR    | bothera_ai:predict:85 - Inference error: required rank 4 tensor to use channels_last format
+2026-09-16 00:42:45,102 | ERROR    | bothera_ai:predict:85 - Inference error: required rank 4 tensor to use channels_last format
+2026-09-16 00:42:45,715 | ERROR    | bothera_ai:predict:85 - Inference error: required rank 4 tensor to use channels_last format
+2026-09-16 00:42:46,854 | ERROR    | bothera_ai:predict:85 - Inference error: required rank 4 tensor to use channels_last format
+2026-09-16 00:42:47,535 | ERROR    | bothera_ai:predict:85 - Inference error: required rank 4 tensor to use channels_last format
+2026-09-16 00:42:48,245 | ERROR    | bothera_ai:predict:85 - Inference error: required rank 4 tensor to use channels_last format
+2026-09-16 00:42:48,818 | ERROR    | bothera_ai:predict:85 - Inference error: required rank 4 tensor to use channels_last format
+2026-09-16 00:42:49,488 | ERROR    | bothera_ai:predict:85 - Inference error: required rank 4 tensor to use channels_last format
+2026-09-16 00:42:50,127 | ERROR    | bothera_ai:predict:85 - Inference error: required rank 4 tensor to use channels_last format
+2026-09-16 00:42:50,730 | ERROR    | bothera_ai:predict:85 - Inference error: required rank 4 tensor to use channels_last format
+2026-09-16 00:42:51,345 | ERROR    | bothera_ai:predict:85 - Inference error: required rank 4 tensor to use channels_last format
+2026-09-16 00:42:52,187 | ERROR    | bothera_ai:predict:85 - Inference error: required rank 4 tensor to use channels_last format
+2026-09-16 00:42:52,813 | ERROR    | bothera_ai:predict:85 - Inference error: required rank 4 tensor to use channels_last format
+2026-09-16 00:42:53,335 | ERROR    | bothera_ai:predict:85 - Inference error: required rank 4 tensor to use channels_last format
+2026-09-16 00:42:53,912 | ERROR    | bothera_ai:predict:85 - Inference error: required rank 4 tensor to use channels_last format
+2026-09-16 00:42:54,415 | ERROR    | bothera_ai:predict:85 - Inference error: required rank 4 tensor to use channels_last format
+2026-09-16 00:42:54,980 | ERROR    | bothera_ai:predict:85 - Inference error: required rank 4 tensor to use channels_last format
+2026-09-16 00:42:55,595 | ERROR    | bothera_ai:predict:85 - Inference error: required rank 4 tensor to use channels_last format
+2026-09-16 00:42:56,198 | ERROR    | bothera_ai:predict:85 - Inference error: required rank 4 tensor to use channels_last format
+2026-09-16 00:42:56,959 | ERROR    | bothera_ai:predict:85 - Inference error: required rank 4 tensor to use channels_last format
+2026-09-16 00:42:57,909 | ERROR    | bothera_ai:predict:85 - Inference error: required rank 4 tensor to use channels_last format
+2026-09-16 00:42:58,537 | ERROR    | bothera_ai:predict:85 - Inference error: required rank 4 tensor to use channels_last format
+2026-09-16 00:42:59,211 | ERROR    | bothera_ai:predict:85 - Inference error: required rank 4 tensor to use channels_last format
+2026-09-16 00:42:59,725 | ERROR    | bothera_ai:predict:85 - Inference error: required rank 4 tensor to use channels_last format
+2026-09-16 00:43:00,392 | ERROR    | bothera_ai:predict:85 - Inference error: required rank 4 tensor to use channels_last format
+2026-09-16 00:43:01,006 | ERROR    | bothera_ai:predict:85 - Inference error: required rank 4 tensor to use channels_last format
+2026-09-16 00:43:01,897 | ERROR    | bothera_ai:predict:85 - Inference error: required rank 4 tensor to use channels_last format
+2026-09-16 00:43:02,870 | ERROR    | bothera_ai:predict:85 - Inference error: required rank 4 tensor to use channels_last format
+2026-09-16 00:43:03,520 | ERROR    | bothera_ai:predict:85 - Inference error: required rank 4 tensor to use channels_last format
+2026-09-16 00:43:04,432 | ERROR    | bothera_ai:predict:85 - Inference error: required rank 4 tensor to use channels_last format
+2026-09-16 00:43:05,040 | ERROR    | bothera_ai:predict:85 - Inference error: required rank 4 tensor to use channels_last format
+2026-09-16 00:43:05,750 | ERROR    | bothera_ai:predict:85 - Inference error: required rank 4 tensor to use channels_last format
+2026-09-16 00:43:06,662 | ERROR    | bothera_ai:predict:85 - Inference error: required rank 4 tensor to use channels_last format
+2026-09-16 00:43:07,778 | ERROR    | bothera_ai:predict:85 - Inference error: required rank 4 tensor to use channels_last format
+2026-09-16 00:43:08,597 | ERROR    | bothera_ai:predict:85 - Inference error: required rank 4 tensor to use channels_last format
+2026-09-16 00:43:09,418 | ERROR    | bothera_ai:predict:85 - Inference error: required rank 4 tensor to use channels_last format
+2026-09-16 00:43:10,475 | ERROR    | bothera_ai:predict:85 - Inference error: required rank 4 tensor to use channels_last format
+2026-09-16 00:43:11,476 | ERROR    | bothera_ai:predict:85 - Inference error: required rank 4 tensor to use channels_last format
+2026-09-16 00:43:12,954 | ERROR    | bothera_ai:predict:85 - Inference error: required rank 4 tensor to use channels_last format
+2026-09-16 00:43:13,944 | ERROR    | bothera_ai:predict:85 - Inference error: required rank 4 tensor to use channels_last format
+2026-09-16 00:43:14,890 | ERROR    | bothera_ai:predict:85 - Inference error: required rank 4 tensor to use channels_last format
+2026-09-16 00:43:15,873 | ERROR    | bothera_ai:predict:85 - Inference error: required rank 4 tensor to use channels_last format
+2026-09-16 00:43:16,806 | ERROR    | bothera_ai:predict:85 - Inference error: required rank 4 tensor to use channels_last format
+2026-09-16 00:43:17,849 | ERROR    | bothera_ai:predict:85 - Inference error: required rank 4 tensor to use channels_last format
+2026-09-16 00:43:18,603 | ERROR    | bothera_ai:predict:85 - Inference error: required rank 4 tensor to use channels_last format
+2026-09-16 00:43:19,280 | ERROR    | bothera_ai:predict:85 - Inference error: required rank 4 tensor to use channels_last format
+2026-09-16 00:43:19,902 | ERROR    | bothera_ai:predict:85 - Inference error: required rank 4 tensor to use channels_last format
+2026-09-16 00:43:21,119 | ERROR    | bothera_ai:predict:85 - Inference error: required rank 4 tensor to use channels_last format
+2026-09-16 00:43:21,813 | ERROR    | bothera_ai:predict:85 - Inference error: required rank 4 tensor to use channels_last format
+2026-09-16 00:43:22,477 | ERROR    | bothera_ai:predict:85 - Inference error: required rank 4 tensor to use channels_last format
+2026-09-16 00:43:23,368 | ERROR    | bothera_ai:predict:85 - Inference error: required rank 4 tensor to use channels_last format
+2026-09-16 00:43:24,087 | ERROR    | bothera_ai:predict:85 - Inference error: required rank 4 tensor to use channels_last format
+2026-09-16 00:43:24,842 | ERROR    | bothera_ai:predict:85 - Inference error: required rank 4 tensor to use channels_last format
+2026-09-16 00:43:25,660 | ERROR    | bothera_ai:predict:85 - Inference error: required rank 4 tensor to use channels_last format
+2026-09-16 00:43:26,477 | ERROR    | bothera_ai:predict:85 - Inference error: required rank 4 tensor to use channels_last format
+2026-09-16 00:43:27,305 | ERROR    | bothera_ai:predict:85 - Inference error: required rank 4 tensor to use channels_last format
+2026-09-16 00:43:28,422 | ERROR    | bothera_ai:predict:85 - Inference error: required rank 4 tensor to use channels_last format
+2026-09-16 00:43:29,303 | ERROR    | bothera_ai:predict:85 - Inference error: required rank 4 tensor to use channels_last format
+2026-09-16 00:43:30,381 | ERROR    | bothera_ai:predict:85 - Inference error: required rank 4 tensor to use channels_last format
+2026-09-16 00:43:31,149 | ERROR    | bothera_ai:predict:85 - Inference error: required rank 4 tensor to use channels_last format
+2026-09-16 00:43:31,933 | ERROR    | bothera_ai:predict:85 - Inference error: required rank 4 tensor to use channels_last format
+2026-09-16 00:43:32,754 | ERROR    | bothera_ai:predict:85 - Inference error: required rank 4 tensor to use channels_last format
+2026-09-16 00:43:34,001 | ERROR    | bothera_ai:predict:85 - Inference error: required rank 4 tensor to use channels_last format
+2026-09-16 00:43:34,686 | ERROR    | bothera_ai:predict:85 - Inference error: required rank 4 tensor to use channels_last format
+2026-09-16 00:43:35,436 | ERROR    | bothera_ai:predict:85 - Inference error: required rank 4 tensor to use channels_last format
+2026-09-16 00:43:36,321 | ERROR    | bothera_ai:predict:85 - Inference error: required rank 4 tensor to use channels_last format
+2026-09-16 00:43:37,185 | ERROR    | bothera_ai:predict:85 - Inference error: required rank 4 tensor to use channels_last format
+2026-09-16 00:43:52,184 | ERROR    | bothera_ai:predict:85 - Inference error: required rank 4 tensor to use channels_last format
+2026-09-16 00:43:52,731 | ERROR    | bothera_ai:predict:85 - Inference error: required rank 4 tensor to use channels_last format
+2026-09-16 00:43:53,208 | ERROR    | bothera_ai:predict:85 - Inference error: required rank 4 tensor to use channels_last format
+2026-09-16 00:43:53,850 | ERROR    | bothera_ai:predict:85 - Inference error: required rank 4 tensor to use channels_last format
+2026-09-16 00:43:54,465 | ERROR    | bothera_ai:predict:85 - Inference error: required rank 4 tensor to use channels_last format
+2026-09-16 00:43:55,025 | ERROR    | bothera_ai:predict:85 - Inference error: required rank 4 tensor to use channels_last format
+2026-09-16 00:43:55,495 | ERROR    | bothera_ai:predict:85 - Inference error: required rank 4 tensor to use channels_last format
+2026-09-16 00:43:56,096 | ERROR    | bothera_ai:predict:85 - Inference error: required rank 4 tensor to use channels_last format
+2026-09-16 00:43:56,633 | ERROR    | bothera_ai:predict:85 - Inference error: required rank 4 tensor to use channels_last format
+2026-09-16 00:43:57,147 | ERROR    | bothera_ai:predict:85 - Inference error: required rank 4 tensor to use channels_last format
+2026-09-16 00:43:57,937 | ERROR    | bothera_ai:predict:85 - Inference error: required rank 4 tensor to use channels_last format
+2026-09-16 00:43:58,645 | ERROR    | bothera_ai:predict:85 - Inference error: required rank 4 tensor to use channels_last format
+2026-09-16 00:43:59,274 | ERROR    | bothera_ai:predict:85 - Inference error: required rank 4 tensor to use channels_last format
+2026-09-16 00:43:59,883 | ERROR    | bothera_ai:predict:85 - Inference error: required rank 4 tensor to use channels_last format
+2026-09-16 00:44:00,518 | ERROR    | bothera_ai:predict:85 - Inference error: required rank 4 tensor to use channels_last format
+2026-09-16 00:44:01,075 | ERROR    | bothera_ai:predict:85 - Inference error: required rank 4 tensor to use channels_last format
+2026-09-16 00:44:01,680 | ERROR    | bothera_ai:predict:85 - Inference error: required rank 4 tensor to use channels_last format
+2026-09-16 00:44:02,267 | ERROR    | bothera_ai:predict:85 - Inference error: required rank 4 tensor to use channels_last format
+2026-09-16 00:44:02,910 | ERROR    | bothera_ai:predict:85 - Inference error: required rank 4 tensor to use channels_last format
+2026-09-16 00:44:03,404 | ERROR    | bothera_ai:predict:85 - Inference error: required rank 4 tensor to use channels_last format
+2026-09-16 00:44:03,931 | ERROR    | bothera_ai:predict:85 - Inference error: required rank 4 tensor to use channels_last format
+2026-09-16 00:44:04,511 | ERROR    | bothera_ai:predict:85 - Inference error: required rank 4 tensor to use channels_last format
+2026-09-16 00:44:05,014 | ERROR    | bothera_ai:predict:85 - Inference error: required rank 4 tensor to use channels_last format
+2026-09-16 00:44:05,592 | ERROR    | bothera_ai:predict:85 - Inference error: required rank 4 tensor to use channels_last format
+2026-09-16 00:44:06,215 | ERROR    | bothera_ai:predict:85 - Inference error: required rank 4 tensor to use channels_last format
+2026-09-16 00:44:06,882 | ERROR    | bothera_ai:predict:85 - Inference error: required rank 4 tensor to use channels_last format
+2026-09-16 00:44:07,489 | ERROR    | bothera_ai:predict:85 - Inference error: required rank 4 tensor to use channels_last format
+2026-09-16 00:44:08,108 | ERROR    | bothera_ai:predict:85 - Inference error: required rank 4 tensor to use channels_last format
+2026-09-16 00:44:08,676 | ERROR    | bothera_ai:predict:85 - Inference error: required rank 4 tensor to use channels_last format
+2026-09-16 00:44:09,225 | ERROR    | bothera_ai:predict:85 - Inference error: required rank 4 tensor to use channels_last format
+2026-09-16 00:44:09,763 | ERROR    | bothera_ai:predict:85 - Inference error: required rank 4 tensor to use channels_last format
+2026-09-16 00:44:10,368 | ERROR    | bothera_ai:predict:85 - Inference error: required rank 4 tensor to use channels_last format
+2026-09-16 00:44:11,026 | ERROR    | bothera_ai:predict:85 - Inference error: required rank 4 tensor to use channels_last format
+2026-09-16 00:44:11,591 | ERROR    | bothera_ai:predict:85 - Inference error: required rank 4 tensor to use channels_last format
+2026-09-16 00:44:12,252 | ERROR    | bothera_ai:predict:85 - Inference error: required rank 4 tensor to use channels_last format
+2026-09-16 00:44:12,876 | ERROR    | bothera_ai:predict:85 - Inference error: required rank 4 tensor to use channels_last format
+2026-09-16 00:44:13,587 | ERROR    | bothera_ai:predict:85 - Inference error: required rank 4 tensor to use channels_last format
+2026-09-16 00:44:14,312 | ERROR    | bothera_ai:predict:85 - Inference error: required rank 4 tensor to use channels_last format
+2026-09-16 00:44:15,013 | ERROR    | bothera_ai:predict:85 - Inference error: required rank 4 tensor to use channels_last format
+2026-09-16 00:44:15,666 | ERROR    | bothera_ai:predict:85 - Inference error: required rank 4 tensor to use channels_last format
+2026-09-16 00:44:16,279 | ERROR    | bothera_ai:predict:85 - Inference error: required rank 4 tensor to use channels_last format
+2026-09-16 00:44:16,895 | ERROR    | bothera_ai:predict:85 - Inference error: required rank 4 tensor to use channels_last format
+2026-09-16 00:44:17,427 | ERROR    | bothera_ai:predict:85 - Inference error: required rank 4 tensor to use channels_last format
+2026-09-16 00:44:17,927 | ERROR    | bothera_ai:predict:85 - Inference error: required rank 4 tensor to use channels_last format
+2026-09-16 00:44:18,449 | ERROR    | bothera_ai:predict:85 - Inference error: required rank 4 tensor to use channels_last format
+2026-09-16 00:44:19,045 | ERROR    | bothera_ai:predict:85 - Inference error: required rank 4 tensor to use channels_last format
+2026-09-16 00:44:19,600 | ERROR    | bothera_ai:predict:85 - Inference error: required rank 4 tensor to use channels_last format
+2026-09-16 00:44:20,174 | ERROR    | bothera_ai:predict:85 - Inference error: required rank 4 tensor to use channels_last format
+2026-09-16 00:44:20,758 | ERROR    | bothera_ai:predict:85 - Inference error: required rank 4 tensor to use channels_last format
+2026-09-16 00:44:21,376 | ERROR    | bothera_ai:predict:85 - Inference error: required rank 4 tensor to use channels_last format
+2026-09-16 00:44:22,035 | ERROR    | bothera_ai:predict:85 - Inference error: required rank 4 tensor to use channels_last format
+2026-09-16 00:44:22,877 | ERROR    | bothera_ai:predict:85 - Inference error: required rank 4 tensor to use channels_last format
+2026-09-16 00:44:23,489 | ERROR    | bothera_ai:predict:85 - Inference error: required rank 4 tensor to use channels_last format
+2026-09-16 00:44:24,080 | ERROR    | bothera_ai:predict:85 - Inference error: required rank 4 tensor to use channels_last format
+2026-09-16 00:44:24,684 | ERROR    | bothera_ai:predict:85 - Inference error: required rank 4 tensor to use channels_last format
+2026-09-16 00:44:25,265 | ERROR    | bothera_ai:predict:85 - Inference error: required rank 4 tensor to use channels_last format
+2026-09-16 00:44:25,869 | ERROR    | bothera_ai:predict:85 - Inference error: required rank 4 tensor to use channels_last format
+2026-09-16 00:44:26,515 | ERROR    | bothera_ai:predict:85 - Inference error: required rank 4 tensor to use channels_last format
+2026-09-16 00:44:27,169 | ERROR    | bothera_ai:predict:85 - Inference error: required rank 4 tensor to use channels_last format
+2026-09-16 00:44:27,747 | ERROR    | bothera_ai:predict:85 - Inference error: required rank 4 tensor to use channels_last format
+2026-09-16 00:44:28,410 | ERROR    | bothera_ai:predict:85 - Inference error: required rank 4 tensor to use channels_last format
+2026-09-16 00:44:29,071 | ERROR    | bothera_ai:predict:85 - Inference error: required rank 4 tensor to use channels_last format
+2026-09-16 00:44:29,818 | ERROR    | bothera_ai:predict:85 - Inference error: required rank 4 tensor to use channels_last format
+2026-09-16 00:44:30,650 | ERROR    | bothera_ai:predict:85 - Inference error: required rank 4 tensor to use channels_last format
+2026-09-16 00:44:31,523 | ERROR    | bothera_ai:predict:85 - Inference error: required rank 4 tensor to use channels_last format
+2026-09-16 00:44:32,325 | ERROR    | bothera_ai:predict:85 - Inference error: required rank 4 tensor to use channels_last format
+2026-09-16 00:44:33,060 | ERROR    | bothera_ai:predict:85 - Inference error: required rank 4 tensor to use channels_last format
+2026-09-16 00:44:33,760 | ERROR    | bothera_ai:predict:85 - Inference error: required rank 4 tensor to use channels_last format
+2026-09-16 00:44:34,403 | ERROR    | bothera_ai:predict:85 - Inference error: required rank 4 tensor to use channels_last format
+2026-09-16 00:44:34,963 | ERROR    | bothera_ai:predict:85 - Inference error: required rank 4 tensor to use channels_last format
+2026-09-16 00:44:35,963 | ERROR    | bothera_ai:predict:85 - Inference error: required rank 4 tensor to use channels_last format
+2026-09-16 00:44:36,720 | ERROR    | bothera_ai:predict:85 - Inference error: required rank 4 tensor to use channels_last format
+2026-09-16 00:44:37,578 | ERROR    | bothera_ai:predict:85 - Inference error: required rank 4 tensor to use channels_last format
+2026-09-16 00:44:38,365 | ERROR    | bothera_ai:predict:85 - Inference error: required rank 4 tensor to use channels_last format
+2026-09-16 00:44:39,253 | ERROR    | bothera_ai:predict:85 - Inference error: required rank 4 tensor to use channels_last format
+2026-09-16 00:44:39,953 | ERROR    | bothera_ai:predict:85 - Inference error: required rank 4 tensor to use channels_last format
+2026-09-16 00:44:40,558 | ERROR    | bothera_ai:predict:85 - Inference error: required rank 4 tensor to use channels_last format
+2026-09-16 00:44:41,285 | ERROR    | bothera_ai:predict:85 - Inference error: required rank 4 tensor to use channels_last format
+2026-09-16 00:44:42,026 | ERROR    | bothera_ai:predict:85 - Inference error: required rank 4 tensor to use channels_last format

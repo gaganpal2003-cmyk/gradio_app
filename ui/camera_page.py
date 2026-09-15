@@ -15,17 +15,23 @@ def create_camera_tab(camera_service: CameraService, detection_service: Detectio
                     cams = camera_service.get_all_cameras()
                     if not cams:
                         return gr.update(choices=[], value=None)
-                    choices = [(f"{c['name']} (ID:{c['id']})", c['id']) for c in cams]
+                    choices = [(f"{c['name']} (ID:{c['id']})", str(c['id'])) for c in cams]
                     return gr.update(choices=choices, value=choices[0][1] if choices else None)
                 
-                camera_selector = gr.Dropdown(label="Select Camera", interactive=True)
+                # Initial fetch
+                initial_cams = camera_service.get_all_cameras()
+                initial_choices = [(f"{c['name']} (ID:{c['id']})", str(c['id'])) for c in initial_cams]
+                initial_val = initial_choices[0][1] if initial_choices else None
+                
+                camera_selector = gr.Dropdown(label="Select Camera", choices=initial_choices, value=initial_val, interactive=True)
                 
                 with gr.Row():
                     start_btn = gr.Button("▶ Start Stream", variant="primary", size="sm")
                     stop_btn = gr.Button("⏹ Stop Stream", size="sm")
                 
                 gr.Markdown("---")
-                with gr.Accordion("Add New Camera", open=False):
+                with gr.Accordion("Add New Camera & Configure Model", open=False):
+                    gr.Markdown("*To use your custom model (like **`ppe.pt`**), add a new camera stream below and select the model from the dropdown. The engine will auto-detect YOLOv5/YOLOv8!*")
                     new_cam_name = gr.Textbox(label="Camera Name", placeholder="e.g. Warehouse Cam 1")
                     new_cam_source = gr.Textbox(label="Source (RTSP / USB index / file)", placeholder="0 or rtsp://...")
                     new_cam_loc = gr.Textbox(label="Location", placeholder="e.g. Zone A")
@@ -59,7 +65,7 @@ def create_camera_tab(camera_service: CameraService, detection_service: Detectio
         def get_latest_frame(cam_id):
             if cam_id is None:
                 return None
-            frame, fps = detection_service.process_latest_frame(cam_id)
+            frame, fps = detection_service.process_latest_frame(int(cam_id))
             if frame is not None:
                 import cv2
                 # Convert BGR to RGB for Gradio Image
@@ -70,12 +76,12 @@ def create_camera_tab(camera_service: CameraService, detection_service: Detectio
         if timer is not None:
             def on_start(cam_id):
                 if cam_id:
-                    detection_service.start_detection(cam_id)
+                    detection_service.start_detection(int(cam_id))
                 return gr.update(active=True)
                 
             def on_stop(cam_id):
                 if cam_id:
-                    detection_service.stop_detection(cam_id)
+                    detection_service.stop_detection(int(cam_id))
                 return gr.update(active=False), None
                 
             start_btn.click(on_start, inputs=[camera_selector], outputs=[timer])
@@ -91,4 +97,4 @@ def create_camera_tab(camera_service: CameraService, detection_service: Detectio
         def init_tab():
             return get_cam_choices()
             
-        # We can trigger init on load or just leave it empty and let the user refresh
+        return camera_selector, get_cam_choices
